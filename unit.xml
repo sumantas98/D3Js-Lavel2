@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<testsuite name="Node.js (linux; U; rv:v8.15.1)" package="unit" timestamp="2020-09-07T14:37:31" id="0" hostname="workspacegdv3w9k4rd0wufor.ws-c4b9ccf56-r8gnk" tests="7" errors="0" failures="3" time="0.052">
+  <properties>
+    <property name="browser.fullName" value="Node.js (linux; U; rv:v8.15.1)"/>
+  </properties>
+  <testcase name="D3 JS: Unit Testing: svg should be created" time="0.011" classname="unit.D3 JS:">
+    <failure type="">Expected 0 to be greater than 0.
+    at UserContext.&lt;anonymous&gt; (test/index_test.js:19:36)
+</failure>
+  </testcase>
+  <testcase name="D3 JS: Unit Testing: should have the correct height" time="0.01" classname="unit.D3 JS:">
+    <failure type="">TypeError: Cannot read property 'getAttribute' of null
+    at Array.Co.attr (app/lib/d3.v4.min.js:3:11843)
+    at UserContext.&lt;anonymous&gt; (test/index_test.js:22:25)
+</failure>
+  </testcase>
+  <testcase name="D3 JS: Unit Testing: should have the correct width" time="0.006" classname="unit.D3 JS:">
+    <failure type="">TypeError: Cannot read property 'getAttribute' of null
+    at Array.Co.attr (app/lib/d3.v4.min.js:3:11843)
+    at UserContext.&lt;anonymous&gt; (test/index_test.js:26:25)
+</failure>
+  </testcase>
+  <testcase name="D3 JS: Unit Testing: should have rect" time="0.008" classname="unit.D3 JS:"/>
+  <testcase name="D3 JS: Unit Testing: should have data in rect" time="0.006" classname="unit.D3 JS:"/>
+  <testcase name="D3 JS: Unit Testing: data length should be greater than zero" time="0.005" classname="unit.D3 JS:"/>
+  <testcase name="D3 JS: Unit Testing: data length should be five" time="0.006" classname="unit.D3 JS:"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
